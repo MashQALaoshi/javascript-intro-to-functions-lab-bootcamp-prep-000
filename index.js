@@ -17,10 +17,15 @@ function logWhisper(string)  {
   logWhisper('hello')
   
 function sayHiToGrandma(string) {
-   if (condition) {
-    
+   if string.lowercase() {
+    return "I can't hear you!"
 
 } else {
   
 }
 } 
+
+describe('sayHiToGrandma(string)', function() {
+  it('returns "I can\'t hear you!" if `string` is lowercase', function() {
+    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+  })
