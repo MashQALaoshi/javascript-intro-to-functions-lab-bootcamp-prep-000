@@ -27,6 +27,7 @@ function sayHiToGrandma(string) {
 sayHiToGrandma('hello')
 
 
+
 /*
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
