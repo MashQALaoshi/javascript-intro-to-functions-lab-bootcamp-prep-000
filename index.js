@@ -24,3 +24,4 @@ function sayHiToGrandma(string) {
   return "YES INDEED!"
 }
 }
+sayHiToGrandma('hello')
