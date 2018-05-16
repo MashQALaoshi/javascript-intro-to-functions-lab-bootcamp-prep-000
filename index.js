@@ -24,11 +24,11 @@ function sayHiToGrandma(string) {
    (string.toUpperCase())
    return "YES INDEED!";
 
-} else {
+  } else {
   return "I love you, too."
-}
-}
-sayHiToGrandma('hello')
+  }
+  }
+  sayHiToGrandma('hello')
 
 
 
