@@ -17,5 +17,10 @@ function logWhisper(string)  {
   logWhisper('hello')
   
 function sayHiToGrandma(string) {
-   
-}  
+   if (condition) {
+    
+
+} else {
+  
+}
+} 
