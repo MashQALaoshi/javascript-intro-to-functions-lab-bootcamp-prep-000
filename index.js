@@ -9,4 +9,3 @@ function whisper(string) {
 function logShout(string) {
   console.log (spy)
 }
-spy('HELLO').toUpperCase 
